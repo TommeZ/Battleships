@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Battleships.jnlp">
+  <information>
+    <title>Battleships</title>
+    <vendor>Tommy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-ea "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Battleships.jar" size="39095" download="eager" />
+    <jar href="lib\hamcrest-core-1.3.jar" size="45024" download="eager" />
+    <jar href="lib\junit-4.12.jar" size="314932" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="battleships.BSView"  name="Battleships" />
+  <update check="always"/>
+</jnlp>
